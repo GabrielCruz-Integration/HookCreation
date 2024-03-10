@@ -17,6 +17,6 @@ export const SideBar = styled.div`
 `
 export const InsideContainer = styled.div`
   flex: 8;
-  background-color: '#FFFFF';
+  background-color: ${(props) => props.theme.colors.black};
   height: 100vh;
 `
